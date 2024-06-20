@@ -1,0 +1,16 @@
+if SHIELD_BONSAI_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "bonsai"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_BONSAI_LEFT || SHIELD_BONSAI_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

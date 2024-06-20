@@ -1,0 +1,5 @@
+config SHIELD_BONSAI_LEFT
+    def_bool $(shields_list_contains,bonsai_left)
+
+config SHIELD_BONSAI_RIGHT
+    def_bool $(shields_list_contains,bonsai_right)
