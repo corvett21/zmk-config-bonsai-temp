@@ -7,5 +7,5 @@ requires: [seeed_xiao]
 features:
   - keys
 siblings:
-  - cradio_left
-  - cradio_right
+  - bonsai_left
+  - bonsai_right
