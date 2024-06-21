@@ -3,7 +3,7 @@ id: bonsai
 name: bonsai
 type: shield
 url: https://github.com/corvett21/zmk-config-bonsai/
-requires: [pro_micro]
+requires: [seeed_xiao]
 features:
   - keys
 siblings:
