@@ -1,0 +1,11 @@
+file_format: "1"
+id: bonsai
+name: bonsai
+type: shield
+url: https://github.com/corvett21/zmk-config-bonsai/
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - cradio_left
+  - cradio_right
